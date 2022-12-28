@@ -1,0 +1,14 @@
+[package]
+name = "droid"
+description = "Directly Rendered Option Interface for DFX"
+version = "0.1.0"
+edition = "2021"
+authors = ["Paul Young <840+paulyoung@users.noreply.github.com>"]
+
+[[bin]]
+name = "droid"
+
+[dependencies]
+klask = "1.0"
+# Fork of dfx that exposes dfx as a lib
+dfx = { git = "https://github.com/paulyoung/sdk", branch="paulyoung/dfx-lib" }
