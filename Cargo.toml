@@ -3,7 +3,7 @@ name = "droid"
 description = "Directly Rendered Option Interface for DFX"
 version = "0.1.0"
 edition = "2021"
-authors = ["Paul Young <840+paulyoung@users.noreply.github.com>"]
+authors = ["Paul Young <84700+paulyoung@users.noreply.github.com>"]
 
 [[bin]]
 name = "droid"
